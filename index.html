@@ -18,22 +18,28 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#"></a>Sobre a Loja</a>
+                        <a href="#about">Sobre a Loja </a>
                     </li>
                     <li>
-                        <a href="#"></a>Sobre a Loja</a>
+                        <a href="#contact">Contato </a>
+                    </li>
+                    <li>
+                        <a href="#contact">Produtos </a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
             <img class="store-front" src="./imagens/fachada.png.jpg" alt="fahcada da loja">
             <div>
                 <h2>Sobre a Loja</h2>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti et, ex rem quaerat id, laboriosam quasi cumque laborum architecto ab molestiae eveniet atque mollitia accusantium expedita quos odio! Illo.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae error at illo alias laudantium quaerat excepturi quis natus, minima quidem consequuntur consequatur maiores aliquid praesentium laboriosam molestiae corrupti eum eius?
                 </p>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae error at illo alias laudantium quaerat excepturi quis natus, minima quidem consequuntur consequatur maiores aliquid praesentium laboriosam molestiae corrupti eum eius?
@@ -47,6 +53,27 @@
             </div>
         </div>
     </section>
+    <section id="products">
+        <div class="container">
+            <h1>Produtos</h1>
+            <div class="store-products">
+            <li>
+                <ul>
+                    <img src="./imagens/oculosgucci.pnj.avif" alt="Oculos GUCCI">
+                </ul>
+                <ul>
+                    <img src="./imagens/oculosokley.pnj.avif" alt="Oculos OAKLEY">
+                </ul>
+                <ul>
+                    <img src="./imagens/oculosarmani.pnj.avif" alt="Oculos ARMANI">
+                </ul>
+                <ul>
+                    <img src="./imagens/oculoprada.pnj.avif" alt="Oculos PRADA">
+                </ul>
+            </li>
+            </div>
+        </div>
+    </section>
     <section id="contact">
         <div class="container">
             <h2>Contato</h2>
@@ -54,10 +81,10 @@
                 <div>
                     <h3>Fale conosco</h3>
                     <form action="">
-                        <input type="text" placeholder="Seu nome" />
-                        <input type="email" placeholder="Seu e-mail" />
+                        <input type="text" placeholder="Seu nome" required />
+                        <input type="email" placeholder="Seu e-mail" required />
                         <input type="tel" placeholder="Seu telefone (opcional)" />
-                        <textarea placeholder="Sua mensagem"></textarea>
+                        <textarea placeholder="Sua mensagem" required></textarea>
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
@@ -86,5 +113,12 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Ótica Phanton - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
