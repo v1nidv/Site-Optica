@@ -7,7 +7,8 @@
 header,
 section h2,
 section h3,
-form button {
+form button,
+p {
     font-family:"Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -76,6 +77,7 @@ section h2 {
 
 section  p { 
     margin-bottom: 8px;
+    color: rgb(22, 4, 4) ;
 }
 
 section {
@@ -148,10 +150,37 @@ footer {
 }
 
 .store-products img {
-    height: 100px;
+    height: 100px ;
+}
+
+.store-products ul {
+    max-width: 1280px;
+    width: 398px;
+    margin: 0 auto;
 }
 
 .store-products li {
     display: inline;
     margin-right: 8px;
+}
+
+.store-products li a {
+    text-decoration: none;
+}
+
+#products .container {
+    display: block;
+}
+
+span {
+    color:rgb(22, 4, 4) ;
+}
+
+#products .container h2 {
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+#products .container p {
+    font-size: 16px;
 }
