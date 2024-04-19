@@ -151,6 +151,7 @@ footer {
 
 .store-products img {
     height: 100px ;
+    margin-top: 16px ;
 }
 
 .store-products ul {
@@ -177,10 +178,28 @@ span {
 }
 
 #products .container h2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 40px;
 }
 
 #products .container p {
     font-size: 16px;
+}
+
+#about ul li img {
+    height: 30PX;
+    margin: 8PX;
+}
+
+#products .container button {
+    background-color: rgb(22, 4, 4);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 8px;
+    padding: 8px;
+}
+
+#products .container button:hover {
+    background-color: rgb(73, 25, 25)
 }
